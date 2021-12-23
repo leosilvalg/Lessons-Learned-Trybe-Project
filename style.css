@@ -1,0 +1,176 @@
+* {
+  background-color: rgb(253, 251, 251);
+  margin: 0%;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  font-family: sans-serif;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cabecalho {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: rgb(107, 115, 92);
+  padding: 0 30px;
+  text-align: center;
+}
+
+#titulo {
+  padding: 30px;
+  text-align: center;
+  font-size: 4em;
+  background-color: rgb(107, 115, 92);
+  color: rgb(255, 232, 214);
+}
+
+#navegacao ul {
+  padding: 10px;
+  background-color: rgb(107, 112, 92);
+}
+
+#navegacao ul li {
+  list-style: none;
+  display: inline;
+}
+
+#navegacao ul li a {
+  padding-inline: 60px;
+  background-color: rgb(107, 112, 92);
+  font-size: 1.5em;
+  color: rgb(255, 232, 214);
+  text-decoration: none;
+}
+
+#primeira-sec {
+  text-align: center;
+  width: 70%;
+  top: 150px;
+  margin: auto;
+}
+
+
+#minha_foto {
+  border-style: solid;
+  border-radius: 0 200px 0 100px;
+  margin: 230px 0 20px 20px;
+}
+
+#segunda-sec {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+
+#primeiro-art {
+  width: 75%;
+  margin: auto;
+}
+
+.tabelas {
+  width: 30%;
+  margin: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.tabelas h2 {
+  text-align: center;
+  font-size: 1.5em;
+  background-color: rgb(183, 183, 164);
+  color: rgb(255, 232, 214);
+  border-radius: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.lado-direito {
+  padding: 20px;
+  margin-left: 800px;
+  margin-right: 100px;
+  border-radius: 20px;
+  background-color: rgb(183, 183, 164);
+}
+
+.lado-direito h2 {
+  font-size: 1.5em;
+  background-color: rgb(183, 183, 164);
+  color: rgb(255, 232, 214);
+}
+
+.lado-direito p {
+  text-align: justify;
+  background-color: rgb(183, 183, 164);
+}
+
+.lado-esquerdo {
+  width: 25%;
+  display: inline-block;
+  float: left;
+  background-color: rgb(183, 183, 164);
+  padding: 20px;
+  margin: 0 0 0 100px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+.lado-esquerdo h2 {
+  font-size: 1.5em;
+  background-color: rgb(183, 183, 164);
+  color: rgb(255, 232, 214);
+}
+
+.lado-esquerdo p {
+  text-align: justify;
+  background-color: rgb(183, 183, 164);
+}
+
+#coluna {
+  margin-top: 50px;
+}
+
+#coluna h2 {
+  font-size: 1.5em;
+  border-radius: 20px;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  background-color: rgb(183, 183, 164);
+  color: rgb(255, 232, 214);
+}
+
+table {
+  width: 50%;
+  margin: auto;
+}
+
+table tr td {
+  font-size: 17px;
+  padding: 10px;
+  text-align: center;
+  table-layout: fixed;
+  height: 40px;
+  border-radius: 20px;
+}
+
+#rodape {
+  padding: 25px;
+  margin-top: 70px;
+  text-align: center;
+  background-color: rgb(107, 115, 92);
+  color: rgb(255, 232, 214);
+}
+
+#rodape h3 {
+  font-size: 1.5em;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(107, 115, 92);
+}
